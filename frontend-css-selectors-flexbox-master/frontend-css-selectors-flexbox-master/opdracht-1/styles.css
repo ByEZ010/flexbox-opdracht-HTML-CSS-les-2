@@ -1,0 +1,64 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+.one {
+    background-color: mediumpurple;
+    color: white;
+    width: 350px;
+    height: 350px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.nav {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+.login > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.five {
+    display: flex;
+    flex-wrap: wrap; /*Ik begrijp niet waarom het niet in wrapt... tips?*/
+    padding: 0;
+    margin: 0;
+
+}
+
+.five article{
+    width: min-content;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
