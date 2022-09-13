@@ -44,16 +44,14 @@ ul.nav {
 
 .five {
     display: flex;
-    flex-wrap: wrap; /*Ik begrijp niet waarom het niet in wrapt... tips?*/
-    padding: 0;
-    margin: 0;
+    flex-wrap: wrap; 
 
 }
 
 .five article{
-    width: min-content;
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 0;
+    flex-basis: 360px;
 }
 
 
